@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+:root {
+	--main-color: #FFC805;
+}
+
+html, body, #fullheight {
+	min-height: 100% !important;
+	height: 100%;
+}
+
+body {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.signpost {
+	background-color: #61ACEC;
+	color: white;
+	text-transform: uppercase;
+}
+
+.card {
+	margin-bottom: 10px;	
+}
+
+.card-title {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.etymology {
+	color: #C70039 !important;
+}
+
+.longman {
+	color: #2E3EB2 !important;
+}
+
+.wordref {
+	color: #31A956 !important;
+}
+
+.card-text {
+	font-size: 17px !important;
+}
+
+.indexbox {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+	font-family: 'Noto Serif KR', serif;
+	font-size: 70px;
+}
+
+.smalltitle {
+	font-family: 'Noto Serif KR', serif;
+	font-size: 50px;
+}
+
+.searchbox {
+	width: 500px;
+	height: 70px;
+	border-radius: 30px;
+	background-color: var(--main-color);
+	padding: 15px;
+}
+
+.searchbar {
+	border-radius: 30px 0 0 30px;
+	border-right: none;
+	border-color: var(--main-color);
+	border-style: solid;
+	height: 40px;
+	width: 425px;
+	outline: none;
+	padding-left: 20px;
+	margin: 0;
+}
+
+.searchbtn {
+	width: 30px;
+	height: 40px;
+	border: none;
+	cursor: pointer;
+	color: #FFF;
+	background-color: var(--main-color);
+	font-weight: bold;
+}
+
+.searchbtn:active, .searchbtn:focus {
+	outline: none;
+}
+
+.searchcon {
+	display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.searchbtnwht {
+	width: 35px;
+	height: 37px;
+	border: none;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	color: black;
+	background-color: #FFF;
+	font-weight: bold;
+	font-size: 17px;
+	padding-right: 20px;
+}
+
+.searchbtnwht:active, .searchbtnwht:focus {
+	outline: none;
+}
+
+.searchbarwht {
+	border-radius: 5px 0 0 5px;
+	border-right: none;
+	border-color: var(--main-color);
+	border-style: solid;
+	height: 40px;
+	width: 425px;
+	outline: none;
+	padding-left: 20px;
+}
+
+.searchboxwht {
+	width: 500px;
+	height: 70px;
+	background-color: var(--main-color);
+	padding: 15px;
+}
